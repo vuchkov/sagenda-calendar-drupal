@@ -1,0 +1,14 @@
+sagenda.generate:
+  path: 'sagenda/generate/{paragraphs}/{phrases}'
+  defaults:
+    _controller: '\Drupal\sagenda\Controller\SagendaController::generate'
+  requirements:
+    _permission: 'generate sagenda'
+
+sagenda.form:
+  path: '/admin/config/development/sagenda'
+  defaults:
+    _form: 'Drupal\sagenda\Form\SagendaForm'
+    _title: 'sagenda settings'
+  requirements:
+    _permission: 'administer site configuration'

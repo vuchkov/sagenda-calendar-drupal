@@ -1,0 +1,22 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function sagenda_calendar_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.sagenda':
+      return t('
+        <h2>Sagenda Calendar for Drupal.</h2>
+        <h3>Instructions</h3>
+        <p>Calendar allowing your customer to book appointment for Drupal 8.x</p>
+        <p>Unpack in the <em>modules</em> folder (currently in the root of your Drupal 8 installation) and enable in <strong>/admin/modules</strong>.</p>
+        <p>Visite <a href="https://sagenda.net/Accounts/Register">https://sagenda.net/Accounts/Register</a> to create an account.</p>
+        <p>Enter your authentication code (token) and configure your module.</p>
+        <p>In case you need anything contact us : <a href="https://sagenda.com/#contact">https://sagenda.com/#contact</a></p>
+
+      ');
+  }
+}

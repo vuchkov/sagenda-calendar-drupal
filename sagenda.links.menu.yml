@@ -1,0 +1,5 @@
+sagenda.form:
+  title: 'Sagenda Calendar settings'
+  description: 'Configure settings for the Sagenda Calendar module.'
+  route_name: sagenda.form
+  parent: 'system.admin_config_development'
