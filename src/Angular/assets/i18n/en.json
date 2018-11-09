@@ -1,0 +1,61 @@
+{
+	"CALENDAR": {
+		"DAY": "Day",
+		"MONTH": "Month",
+		"NEXT": "Next",
+		"PREVIOUS": "Previous",
+		"TODAY": "Today",
+		"WEEK": "Week"
+	},
+	"ERROR": {
+		"NO_BOOKABLE_ITEM": "Please create at least 1 bookable item in your Sagenda's account!",
+		"NO_TOKEN": "Please copy your authentication code (token) from your Sagenda's account!",
+		"DIFFERENT_CURRENCIES": "You can not book multiple events that have different payment currencies.",
+		"NUMBER_OF_MEMBERS_EXCEEDS_MAXIMUM": "There are not enough openings for the number of members you would like to book."
+	},
+	"EVENT": {
+		"ALL_DAY": "All Day",
+		"DATE": "Date"
+	},
+	"MULTIPLE": {
+		"SELECTED_EVENTS": "Selected event(s) :",
+		"CLEAR_SELECTION": "Clear selection",
+		"NO_SELECTED_EVENTS": "No event selected. Please click on each event individually or use range selection by selecting several days."
+	},
+	"MESSAGE": {
+		"DISABLE_MULTIPLE_SELECTION": "Disable multiple selection",
+		"ENABLE_MULTIPLE_SELECTION": "Enable multiple selection",
+		"NO_EVENT": "No event found for the given period!",
+		"PLEASE_ENTER_A_VALID_EMAIL_ADDRESS": "Please enter a valid email address!",
+		"PLEASE_SELECT": "Please select...",
+		"VALUE_IS_REQUIRED": "Value is required!",
+		"YOU_HAVE_SUCCESSFULLY_BOOKED": "You have successfully booked!",
+		"YOU_WILL_GET_NOTIFICATION": "You will soon get a notification by email and optionally by SMS."
+	},
+	"STANDARD": {
+		"LINK": "Link",
+		"OK": "OK"
+	},
+	"SUBSCRIPTION": {
+		"AMOUNT": "Amount:",
+		"BACK": "Back",
+		"BOOK": "Book",
+		"DESCRIPTION": "Description:",
+		"DR": "Dr.",
+		"EMAIL": "Email address:",
+		"FIRST_NAME": "First Name:",
+		"FROM": "From:",
+		"LAST_NAME": "Last Name:",
+		"LET_S_BOOK_IT": "Let's Book It!",
+		"MISS": "Miss",
+		"MR": "Mr.",
+		"MRS": "Mrs.",
+		"NOTE": "Note:",
+		"PHONE": "Phone:",
+		"TITLE": "Title:",
+		"TO": "To:",
+		"PAYMENT_MESSAGE": "You will be redirected to the paypal website to complete your payment and booking",
+		"REMOVE_MEMBER": "Remove Member",
+		"ADD_MEMBER": "Add Member"
+	}
+}
